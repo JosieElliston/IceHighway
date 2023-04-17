@@ -1,8 +1,19 @@
-# Meteor Addon Template
+# Ice Highway
 
-A template to allow easy usage of the Meteor Addon API.
+a slice looks like this:
+
+123: * N N *
+122: N A A N
+121: N A B N
+120: N B I N
+119: * N N *
+
+A: air
+B: button
+I: ice (blue ice)
+N: building block (netherrack)
+*: any
+
 
 ### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+idk lmao
