@@ -14,12 +14,12 @@ import org.slf4j.Logger;
 
 public class Addon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("IceHighway CATEGORY");
+    public static final HudGroup HUD_GROUP = new HudGroup("IceHighway HUD_GROUP");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing Meteor Addon IceHighway");
 
         // Modules
         Modules.get().add(new ModuleExample());
@@ -38,6 +38,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "icehighway";
     }
 }
